@@ -2,13 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Card Validation</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+
+    <form id="ccNumber" class="dados">
+
+     <div class="pag">
+    <img src= "a.jpeg">Que escolha perfeita!<br><br> Agora vamos ao último passo: 
+      Insira os dados do seu cartão para efetivar o pagamento do sinal.<br><br><br>
+     </div>
+
+     <div>
+        <h3>Nome do Titular</h3>
+        <input id="nometitular" type="text" name="nome" autocomplete="off"
+         placeholder="digite seu nome" />     
+     </div>
+
+     <div>
+        <h3>Número do cartão</h3>
+        <input id="nCartao" required type="text" name="cartao" autocomplete="off" maxlength="19"
+         placeholder=" número do cartão" />
+          
+        <input id="btnValid" type="button" name="acao" value="Enviar" />
+        <p id= "outCard"></p> 
+      </div>
+      
+    </form>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>
