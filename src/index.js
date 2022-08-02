@@ -15,14 +15,14 @@ function validadorCard() {
     if (numCard === "") {
         return respCard.innerText = "Digite o número do cartão";
     }
-    else if (resultadoFinal == true) {
+     else if (resultadoFinal == true) {
        
-        alert(resultMasky + "Parabéns, pagamento efetuado com sucesso")
+        return respCard.innerText = resultMasky + " Parabéns, pagamento efetuado com sucesso"
     
     }
     else {
         
-        alert(resultMasky + " Insira o cartão novamente, erro no cartão")
+       return respCard.innerText = resultMasky + " digite novamente, cartão inválido"
     
 
         

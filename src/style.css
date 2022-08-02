@@ -3,7 +3,9 @@
 
 body
 {
-    background-image: url("b.jpeg");
+    background-image: url("plano\ de\ fundo.png");
+    background-size: 45cm;
+    
 }
 
 img {

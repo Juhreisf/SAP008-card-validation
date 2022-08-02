@@ -32,13 +32,12 @@ const validator = {
   }
   
  },
-maskify: function (creditCardNumber){
+maskify: function (isValid){
   
-  return creditCardNumber.replace(/\d(?=\d{4})/g, "#")
+  return isValid.replace(/\d(?=\d{4})/g,"#")
    
 }
 
- 
 }
 
 export default validator;
