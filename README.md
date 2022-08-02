@@ -40,10 +40,11 @@ Além da validação ou não do cartão, em ambas as mensagens irá aparecer o n
 
 ## 4. Protótipo 
 
+[Protótipo](https://github.com/Juhreisf/SAP008-card-validation/blob/main/src/prototipo.png?raw=true)
 
 ## 5. Layout
 
-
+[Layout](https://github.com/Juhreisf/SAP008-card-validation/blob/main/src/layout.png?raw=true)
 
 ## 6. Tecnologias utilizadas
 
