@@ -4,11 +4,10 @@
 
 * [1. Introdução](#1-Introdução)
 * [2. Descrição](#2-Descrição)
-* [3. Funcionalidades](#3-Funcionalidades)
-* [4. Protótipo](#4-Protótipo)
-* [5. Layout](#5-Layout)
-* [6. Tecnologias utilizadas](#6-Tecnologias-utilizadas)
-* [7. Autora](#7-Autora)
+* [3. Protótipo](#3-Protótipo)
+* [4. Layout](#4-Layout)
+* [5. Tecnologias utilizadas](#5-Tecnologias-utilizadas)
+* [6. Autora](#6-Autora)
 
 
 ## 1. Introdução
@@ -38,15 +37,15 @@ Fiz a criação de uma tela de pagamento com o cartão de crédito, simulando um
 A página contém um campo onde o usuário ira digitar o seu nome e o número do cartão, caso o usuário não digite nada no campo do cartão receberá a mesnagem: "Digite o número do cartão", se o mesmo digitar o número correto ele vai receber na tela uma mensagem dizendo: "Parabéns, pagamento efetuado com sucesso", caso o número seja digitado incorretamente o mesmo recebera a mensagem: " digite novamente, cartão inválido".
 Além da validação ou não do cartão, em ambas as mensagens irá aparecer o número do cartão do usuário mascarado com "#" nos primeiros 12 digitos, deixando vísivel somente os 4 útimos digitos. 
 
-## 4. Protótipo 
+## 3. Protótipo 
 
 [Protótipo](https://github.com/Juhreisf/SAP008-card-validation/blob/main/src/prototipo.png?raw=true)
 
-## 5. Layout
+## 4. Layout
 
 [Layout](https://github.com/Juhreisf/SAP008-card-validation/blob/main/src/layout.png?raw=true)
 
-## 6. Tecnologias utilizadas
+## 5. Tecnologias utilizadas
 
 * HTML5
 * CSS3
@@ -56,6 +55,6 @@ Além da validação ou não do cartão, em ambas as mensagens irá aparecer o n
 * Canva
 
 
-## 7. Autora
+## 6. Autora
 
 Juliana dos Reis Fernandes
